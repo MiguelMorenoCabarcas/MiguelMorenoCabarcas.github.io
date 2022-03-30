@@ -47,24 +47,39 @@
     }
 
     .AboutMe-img-container{
-        height: 12rem;
+        height: 22rem!important;
+    }
+
+    .Conocimientos-container{
+        height: 62rem!important;
     }
 
     .Conocimientos-title{
         font-size: 3rem!important;
     }
 
-    .Conocimientos-container{
-        flex-direction: column!important;
+    .Hability-container{
+        display: flex;
         justify-content: center!important;
+        flex-direction: column!important;
+        padding-top: 1rem!important;
+    }
+
+    .icon-container{
+        display: flex;
+        flex-direction: column!important;
+        justify-content: center;
     }
 
     .img-m, .img-e, .img-a, .img-n{
-        height: 100px!important;  
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
     }
 
-    .img-m{
-        margin-left: 20px;
+    /* .img-m{
+        margin-left: 16px;
     }
 
     .img-e{
@@ -77,10 +92,11 @@
 
     .img-n{
         margin-left: 124px;
-    }
+    } */
 
     .info-container{
         padding-top: 8rem!;
+        padding-right: 1rem;
     }
 
     .contactMe-text{
